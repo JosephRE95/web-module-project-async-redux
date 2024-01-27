@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
+import GifList from '../src/components/GiftList';
 
 function App() {
   return (
-    <div className="App">
-      Async Redux Project
+    <div>
+      <GifList />
     </div>
   );
-}
+};
 
 export default App;
+
